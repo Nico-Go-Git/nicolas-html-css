@@ -97,3 +97,24 @@ ol {
 ol li {
   margin-top: .8rem;
 }
+
+#nutrition li {
+  list-style-type: none;
+  border-bottom: gray dotted .1rem;
+  float: left;
+  width: 48%;
+}
+
+#nutrition li: :nth-child(odd) {
+  background-color: red;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 14rem;
+}
+
+footer p{
+  font: 1.2rem Arial;
+}
