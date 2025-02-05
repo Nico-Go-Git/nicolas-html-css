@@ -105,7 +105,7 @@ ol li {
   width: 48%;
 }
 
-#nutrition li: :nth-child(odd) {
+#nutrition li:nth-child(odd) {
   background-color: red;
 }
 
